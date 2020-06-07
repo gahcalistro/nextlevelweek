@@ -34,7 +34,7 @@ server.get("/create-point", (req, res) => {
     return res.render("create-point.html")
 })
 
-server.post("/savepoint", (req, res) => {
+server.post("/savepoint", (req, res,) => {
     //req.body => Dados enviados através do corpo do form
     //console.log(req.body)
 
@@ -63,16 +63,18 @@ server.post("/savepoint", (req, res) => {
     function afterInsertData(err) {
         if(err) {
             console.log(err)
-            return res.send("Erro no cadastro!")
-        }
+            return res.render("create-point.html", {  saved: false })
+        } else {
 
         console.log("Cadastrado com sucesso")
         console.log(this) //This não funciona properly em uma arrow function
+        return res.render("create-point.html", {  saved: true })
+        }
 
     }
 
     db.run(query, values, afterInsertData)
-    return res.render("create-point.html", { saved: true })
+    
 })
 
 server.get("/search", (req, res) => {
