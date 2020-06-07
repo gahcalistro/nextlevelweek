@@ -77,6 +77,8 @@ function handleSelectedItem(event){
 
     const itemId = itemLi.dataset.id;
 
+    //console.log('ITEM ID:', itemId)
+
     //Verificar se existe itens selecionados
     const alreadySelected = selectedItems.findIndex(item => {
         const itemFound = item === itemId; //Boolean
@@ -99,6 +101,8 @@ function handleSelectedItem(event){
         //Add no Selected
         selectedItems.push(itemId);
     };
+
+    //console.log('selectedItems: ',selectedItems)
 
     //Atualizar o Input Hidden dos Itens
     collectedItems.value = selectedItems;
