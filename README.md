@@ -1,11 +1,9 @@
+<link href="./public/styles/markdown.css" rel="stylesheet"></link>
+
 <h1 align="center">
 	<img alt="Logo" src="./public/assets/logo.svg" width="270px" />
   <!--Application Logo-->
 </h1>
-
-<h2 align="center">
-  Ecoleta
-</h2>
 
 <p align="center">Waste and recycling pickup points</p>
 
@@ -35,9 +33,9 @@
 
 <div align="center">
 <br/>
-	<img 
-        style="border-radius:12px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" 
-    alt="Logo" src="https://i.imgur.com/DgBDF3T.gif" width="1000px" />
+  <img 
+        class="img-bs"
+    alt="Exemplo of the Website in Gif" src="https://i.imgur.com/DgBDF3T.gif" width="100%" />
   <!--Application Logo-->
   <br/>
 </div>
