@@ -34,7 +34,7 @@ server.get("/create-point", (req, res) => {
     return res.render("create-point.html")
 })
 
-server.post("/savepoint", (req, res,) => {
+server.post("/savepoint", (req, res) => {
     //req.body => Dados enviados através do corpo do form
     //console.log(req.body)
 
