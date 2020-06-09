@@ -1,5 +1,3 @@
-<link href="./public/styles/markdown.css" rel="stylesheet"></link>
-
 <h1 align="center">
 	<img alt="Logo" src="./public/assets/logo.svg" width="270px" />
   <!--Application Logo-->
@@ -35,7 +33,7 @@
 <br/>
   <img 
         class="img-bs"
-    alt="Exemplo of the Website in Gif" src="https://i.imgur.com/DgBDF3T.gif" width="100%" />
+    alt="Exemplo of the Website in Gif" src="https://i.imgur.com/P8ATai1.gif" width="100%" />
   <!--Application Logo-->
   <br/>
 </div>
