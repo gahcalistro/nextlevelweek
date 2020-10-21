@@ -2,9 +2,9 @@
 	<img alt="Logo" src="./public/assets/logo.svg" width="270px" />
   <!--Application Logo-->
 </h1>
-
+<!--Slogan-->
 <p align="center">Waste and recycling pickup points</p>
-
+<!--Badges-->
 <p align="center">
   <a href="https://www.linkedin.com/in/gahcalistro/">
     <img alt="Linkedin" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555">
@@ -20,7 +20,7 @@
 
   <img alt="GitHub License" src="https://img.shields.io/github/license/gahcalistro/nlw-ecoleta-starter?style=flat-square">
 </p>
-
+<!--Summary-->
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -33,29 +33,27 @@
 <br/>
   <img 
         class="img-bs"
-    alt="Exemplo of the Website in Gif" src="https://i.imgur.com/P8ATai1.gif" width="100%" />
-  <!--Application Logo-->
+    alt="Gif of the project. It shows all the pages and its functionalities" src="https://i.imgur.com/P8ATai1.gif" width="100%" />
+  <!--Application Gif-->
   <br/>
 </div>
 
 ## 📁 About the project
-
+<!--About-->
 Ecoleta aims to help people who cares about the environment to find recycling points and put their waste in the right place.
 <br/><br/>
 Recycling points can register their information, highlighting what they collect.
 <br/><br/>
 People who wants to recycle can search points by their city.
 
-<!--To see the **api**, click here: [PROJECT_NAME Rest API](https://github/eliasgcf/readme-template)</br>-->
-
 ## 🔖 Layout
-
+<!--Layout-->
 For the project's layout, see [Figma](https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)).
 <br/>
 It may require an account to use some features on Figma. 
 
 ## 🚀 Technologies
-
+<!--Technologies-->
 Technologies that I used to develop this project
 
 - [Node.js](https://nodejs.org/en/)
@@ -64,7 +62,7 @@ Technologies that I used to develop this project
 - [SQLite](https://www.sqlite.org/index.html)
 
 ## 💻 Getting started
-
+<!--Getting Started-->
 ### Requirements
 
 - [Node.js](https://github.com/EliasGcf/gobarber-api)
@@ -87,7 +85,7 @@ $ npm start
 ```
 
 ## 📝 License
-
+<!--License-->
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
