@@ -23,9 +23,9 @@
 
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
@@ -38,7 +38,7 @@
   <br/>
 </div>
 
-## 👨🏻‍💻 About the project
+## 📁 About the project
 
 Ecoleta aims to help people who cares about the environment to find recycling points and put their waste in the right place.
 <br/><br/>
@@ -48,16 +48,18 @@ People who wants to recycle can search points by their city.
 
 <!--To see the **api**, click here: [PROJECT_NAME Rest API](https://github/eliasgcf/readme-template)</br>-->
 
+## 🔖 Layout
+
+For the project's layout, see [Figma](https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)).
+<br/>
+It may require an account to use some features on Figma. 
+
 ## 🚀 Technologies
 
 Technologies that I used to develop this project
 
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/pt-br/)
-- [npm](https://www.npmjs.com/)
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [SQLite](https://www.sqlite.org/index.html)
 
@@ -83,33 +85,6 @@ $ npm install
 # Start server.js
 $ npm start
 ```
-
-## 🤔 How to contribute
-
-**Make a fork of this repository**
-
-- 1 - Make sure you’re logged into GitHub with your account.
-
-- 2 - Click the Fork button on the upper right-hand side of the repository’s page.
-
-
-**Follow the steps below**
-
-```bash
-# Clone your fork
-$ git clone https://github.com/YOUR-USERNAME/nlw-ecoleta-starter.git && cd nlw-ecoleta-starter
-
-# Create a branch with your feature
-$ git checkout -b my-feature
-
-# Make the commit with your changes
-$ git commit -m 'feat: My new feature'
-
-# Send the code to your remote branch
-$ git push origin my-feature
-```
-
-After your pull request is merged, you can delete your branch
 
 ## 📝 License
 
